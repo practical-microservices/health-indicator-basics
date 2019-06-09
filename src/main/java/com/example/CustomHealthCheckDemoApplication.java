@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CfHealthCheckDemoApplication {
+public class CustomHealthCheckDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CfHealthCheckDemoApplication.class, args);
+        SpringApplication.run(CustomHealthCheckDemoApplication.class, args);
     }
 }
